@@ -11,6 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { MobieComponent } from './mobie/mobie.component';
 import { WebComponent } from './web/web.component';
+import { ParentComponent } from './parent/parent.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { WebComponent } from './web/web.component';
     AboutComponent,
     PageNotFoundComponent,
     MobieComponent,
-    WebComponent
+    WebComponent,
+    ParentComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,
